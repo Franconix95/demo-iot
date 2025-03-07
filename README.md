@@ -7,19 +7,11 @@
 - Each coffee has a preparation time (in seconds).
 - Preparation time should be printed before serving the coffee.
 
-**Implementation**:
-- Add a preparation time attribute to the `Coffee` class (e.g., cook time in seconds).
-- Modify the `serve coffee` method to print the preparation time before serving the coffee.
-
 ## 2. Coffee Strength Option
 **Description**: Allow users to choose the strength of their coffee (e.g., regular, strong, mild).
 
 **Requirements**:
 - Each coffee has an associated strength.
-- Present the option to select strength when the user places an order.
-
-**Implementation**:
-- Extend the `Coffee` class or create a new attribute for coffee strength.
 - Present the option to select strength when the user places an order.
 
 ## 3. Coffee Machine Status Display
@@ -28,19 +20,11 @@
 **Requirements**:
 - The coffee machine should have a status  (e.g., "Ready", "Busy", "Needs Maintenance").
 - Update the status based on whether the machine is currently serving coffee or if ingredients are low.
- 
-**Implementation**:
-- Introduce a simple status attribute in the `CoffeeMachine` class.
-- Update the status based on whether the machine is currently serving coffee or if ingredients are low.
 
 ## 4. Discount for Frequent Orders
 **Description**: Implement a simple discount system for users who order a certain number of coffees within a given period.
 
 **Requirements**:
-- Track the number of orders for each coffee.
-- If a user orders more than a specific number (e.g., 5 coffees), apply a discount (e.g., 10% off the next order).
-
-**Implementation**:
 - Track the number of orders for each coffee.
 - If a user orders more than a specific number (e.g., 5 coffees), apply a discount (e.g., 10% off the next order).
 
@@ -51,10 +35,6 @@
 - Log all transactions in a file
 - Log relevant details (coffee type, timestamp, cost) whenever a coffee is successfully served.
 
-**Implementation**:
-- Create a log file that records each order transaction.
-- Log relevant details (coffee type, timestamp, cost) whenever a coffee is successfully served.
-
 ## 6. Ingredient Refill Notification
 **Description**: Implement a notification system to alert the user when any ingredient (water, coffee beans, milk) is running low.
 
@@ -62,17 +42,9 @@
 - Add an alert system that checks the ingredient levels each time coffee is served.
 - If any ingredient falls below a certain threshold (e.g., 20% of its capacity), print a message prompting the user to refill it.
 
-**Implementation**:
-- Add an alert system that checks the ingredient levels each time coffee is served.
-- If any ingredient falls below a certain threshold (e.g., 20% of its capacity), print a message prompting the user to refill it.
-
 ## 7. Add a Help Menu
 **Description**: Create a help menu that explains how to use the application, what options are available for coffee, and what each option entails.
 
 **Requirements**:
-- Add a help command option in the user interface that displays a list of commands and their descriptions.
-- Keep it simple but informative to improve user experience.
-
-**Implementation**:
 - Add a help command option in the user interface that displays a list of commands and their descriptions.
 - Keep it simple but informative to improve user experience.
